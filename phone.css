@@ -2,14 +2,17 @@ body{
     width:fit-content;
     height:fit-content;
 }
-#home{
-   height: 50px;
+#new{
+    height:6vh;
 }
 #leftbox{
     width:100%;
 }
+#leftbox img{
+    display: none;
+}
 #boxes{
-    height:660px;
+    height:120vh;
 }
 .i{
     
@@ -43,16 +46,21 @@ body{
 #leftbox{
     padding-left: 0%;
     width:100%;
-    height:100%;
+    height:140vh;
    
 }
 #leftbox p{
     margin:0%;
+    font-size: 2.0vh;
+    padding-top: 1.4vh;
+    height:70vh;
 }
-
+.m{
+    height:80vh;letter-spacing: .3vh;
+}
 #rightbox{
     width:100%;
-    height:120%;
+    height:50vh;
     padding-left: 0%;
 }
 #rightbox ul li{
@@ -82,4 +90,5 @@ footer{
     color: white;
     text-align: center;
     padding-right: 100px;
+    background-color: #111111;
 }
